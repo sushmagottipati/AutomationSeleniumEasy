@@ -93,9 +93,6 @@ public class InputFormSubmitScript {
 	
 	public void click_InputFormsubmit_Radio() {
 		
-		//JavascriptExecutor js = (JavascriptExecutor)driver;
-		
-		//js.executeScript("arguments[0].click()", inputformsubmitpageobject.click_InputFormsubmit_radio);
 		inputformsubmitpageobject.click_InputFormsubmit_radio.click();
 			
 	}
