@@ -1,5 +1,7 @@
 package com.AutomationSeleniumEasy.Script;
 
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
@@ -13,8 +15,12 @@ public class InputFormSubmitScript {
 	InputFormSubmitPageObject inputformsubmitpageobject = new InputFormSubmitPageObject();
 	
 	XlsReader xlsreader = new XlsReader();
+	
+	
 
 	Base base = new Base();
+
+	
 	
 	public InputFormSubmitScript(WebDriver driver)
 	{
@@ -87,6 +93,9 @@ public class InputFormSubmitScript {
 	
 	public void click_InputFormsubmit_Radio() {
 		
+		//JavascriptExecutor js = (JavascriptExecutor)driver;
+		
+		//js.executeScript("arguments[0].click()", inputformsubmitpageobject.click_InputFormsubmit_radio);
 		inputformsubmitpageobject.click_InputFormsubmit_radio.click();
 			
 	}
