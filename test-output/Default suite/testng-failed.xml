@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.AutomateSeleniumEasy.TestCases.InputFormSubmitTest">
+      <class name="com.AutomateSeleniumEasy.TestCases.AlertsTest">
         <methods>
           <include name="tearDown"/>
-          <include name="prerequsities_BrowserLunch"/>
-          <include name="TC_001_InputFOrmSubmit"/>
+          <include name="TC003_PromptBox"/>
+          <include name="prerequities"/>
         </methods>
-      </class> <!-- com.AutomateSeleniumEasy.TestCases.InputFormSubmitTest -->
+      </class> <!-- com.AutomateSeleniumEasy.TestCases.AlertsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

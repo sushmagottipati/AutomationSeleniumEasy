@@ -48,6 +48,21 @@ public class Base {
 		select = new Select(element);
 		select.selectByValue(value);
 	}
+	
+	public void alert_Accept()
+	{
+		driver.switchTo().alert().accept();
+	}
+	
+	public void alert_Dismiss() {
+		
+		driver.switchTo().alert().dismiss();
+	}
+	public String alert_GetText() {
+		
+		String text = driver.switchTo().alert().getText();
+		return text;
+	}
 
 	public void browserClose() {
 
