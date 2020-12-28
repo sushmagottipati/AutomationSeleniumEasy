@@ -81,7 +81,7 @@ public class InputFormSubmitScript {
 
 		String state = InputFormSubmitDataSet.state;
 
-		base.select_ByVisibleText(inputformsubmitpageobject.click_InputFormubmit_state, state);		
+		base.visibleText(inputformsubmitpageobject.click_InputFormubmit_state, state);		
 
 	}
 	public void click_InputFormSubmit_Zip() {

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15684" started-at="2020-12-19T07:52:08 IST" finished-at="2020-12-19T07:52:24 IST">
+  <suite name="Default suite" duration-ms="24988" started-at="2020-12-28T16:11:57 IST" finished-at="2020-12-28T16:12:22 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15684" started-at="2020-12-19T07:52:08 IST" finished-at="2020-12-19T07:52:24 IST">
-      <class name="com.AutomateSeleniumEasy.TestCases.AlertsTest">
-        <test-method status="PASS" signature="prerequities()[pri:0, instance:com.AutomateSeleniumEasy.TestCases.AlertsTest@5bb21b69]" name="prerequities" is-config="true" duration-ms="10436" started-at="2020-12-19T07:52:08 IST" finished-at="2020-12-19T07:52:19 IST">
+    <test name="Default test" duration-ms="24988" started-at="2020-12-28T16:11:57 IST" finished-at="2020-12-28T16:12:22 IST">
+      <class name="com.AutomateSeleniumEasy.TestCases.AddToKartTest">
+        <test-method status="PASS" signature="prerequsities_BrowserLunch()[pri:0, instance:com.AutomateSeleniumEasy.TestCases.AddToKartTest@32d2fa64]" name="prerequsities_BrowserLunch" is-config="true" duration-ms="11825" started-at="2020-12-28T16:11:57 IST" finished-at="2020-12-28T16:12:09 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- prerequities -->
-        <test-method status="PASS" signature="TC003_PromptBox()[pri:0, instance:com.AutomateSeleniumEasy.TestCases.AlertsTest@5bb21b69]" name="TC003_PromptBox" duration-ms="5182" started-at="2020-12-19T07:52:19 IST" finished-at="2020-12-19T07:52:24 IST">
+        </test-method> <!-- prerequsities_BrowserLunch -->
+        <test-method status="PASS" signature="TC_001_AddToKart()[pri:0, instance:com.AutomateSeleniumEasy.TestCases.AddToKartTest@32d2fa64]" name="TC_001_AddToKart" duration-ms="13088" started-at="2020-12-28T16:12:09 IST" finished-at="2020-12-28T16:12:22 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC003_PromptBox -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.AutomateSeleniumEasy.TestCases.AlertsTest@5bb21b69]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-12-19T07:52:24 IST" finished-at="2020-12-19T07:52:24 IST">
+        </test-method> <!-- TC_001_AddToKart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.AutomateSeleniumEasy.TestCases.AddToKartTest@32d2fa64]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-12-28T16:12:22 IST" finished-at="2020-12-28T16:12:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.AutomateSeleniumEasy.TestCases.AlertsTest -->
+      </class> <!-- com.AutomateSeleniumEasy.TestCases.AddToKartTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

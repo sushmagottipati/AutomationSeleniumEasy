@@ -26,7 +26,7 @@ public class AlertsTest extends Base {
 		alertsscript = new AlertsScript(driver);
 		inputformsubmitscript = new InputFormSubmitScript(driver);
 	}
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void TC001_AlertBox() {
 		
 		inputformsubmitscript.click_DemoSite();
@@ -37,8 +37,11 @@ public class AlertsTest extends Base {
 		softassert.assertEquals(act, true, "popup is getting failed");
 		softassert.assertAll();
 		
+		Thread.currentThread().getId();
+
+		
 	}
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void TC002_ConfirmBox() {
 		
 		inputformsubmitscript.click_DemoSite();

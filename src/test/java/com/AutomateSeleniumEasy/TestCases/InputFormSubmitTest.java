@@ -40,6 +40,8 @@ public class InputFormSubmitTest extends Base{
 		
 		Assert.assertEquals(actual, true, "form is not validate");
 		
+		Thread.currentThread().getId();
+		
 		
 	}
 	
